@@ -1,0 +1,44 @@
+.rectangle-box {
+    background-color: purple;
+    border: 3px solid tomato;
+    width: 180px;
+    height: 70px;
+    position: absolute;
+    animation-name: Kabir;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+}
+@keyframes Kabir {
+    0% {left: 0%;top:0;}
+    25% {left: 25%;top:0;}
+    50% {left: 50%;top:0;}
+    75% {left: 75%;top:0;}
+    100% {left: 100%;top:0;}
+}
+.square-box {
+    margin-top: 300px;
+    width: 150px;
+    height: 150px;
+    border: 3px solid tomato;
+}
+.small {
+    display: flex;
+}
+.small-box1 {
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+}
+.small-box2 {
+    width: 30px;
+    height: 30px;
+    background-color: red;
+}
+.small-box3 {
+    width: 30px;
+    height: 30px;
+    background-color: green;
+}
